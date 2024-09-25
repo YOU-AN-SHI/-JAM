@@ -12,7 +12,7 @@ def wa1py():
 # a2.place(x=60,y=60)
 # a=Label(tk,text="送出程式",font=('Arial', 12))
 # a.place(x=60,y=20)
-photo3 = PhotoImage(file='pange(3).gif')
+photo3 = PhotoImage(file='questionPage1.gif')
 photoL3 = Label(tk,image = photo3,bg = '#468bcc')
 photoL3.place(x = 0 , y = 0)
 sent = Canvas(tk,width=580,height=420,background="#ffffff")#設置畫布
