@@ -99,7 +99,7 @@ def mathfuntion17():
     tk.destroy()
     import end
     end
-photo3 = PhotoImage(file='questionPage1.gif')
+photo3 = PhotoImage(file='pange(3).gif')
 photoL3 = Label(tk,image = photo3,bg = '#468bcc')
 photoL3.place(x = 0 , y = 0)
 canvas = Canvas(tk,width=560,height=235)
@@ -114,7 +114,7 @@ bt_next = Button(tk, text='下一步', bg='#4169e1',fg='#ffffff', font=('Arial',
 bt_next.place(x=890, y=540)
 bt_X = Button(tk, text='X',bg = '#468bcc',fg='#ffffff', font=('Arial', 17),command=mathfuntion7)  # 下一步按鈕
 i = 0
-img = PhotoImage(file = 'miniShiningPot.gif')
+img = PhotoImage(file = 'pange(6).gif')
 bt_y = Button(tk,text = 'pot',command = mathfuntion17)
 bt_y.config(image = img)
 tk.mainloop()
